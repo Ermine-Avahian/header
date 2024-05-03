@@ -78,9 +78,11 @@ input {
   display: none;
 }
 
+.menu-icon-list {
+  display: none;
+}
+
 .menu-btn-icon {
-  stroke-width: 2.5px;
-  stroke: #0c0c0c;
   padding: 0;
   line-height: 0;
   background-color: transparent;
