@@ -49,6 +49,34 @@ input {
     width: 335px;
     margin: 0 auto;
   }
+  .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .header-logo {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+  }
+
+  .header-menu-list {
+    display: none;
+  }
+
+  .menu-icon-list {
+    display: none;
+  }
+
+  .menu-btn-icon {
+    padding: 0;
+    line-height: 0;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+  }
 }
 
 /* Стилі для мобільних пристроїв */
@@ -59,35 +87,35 @@ input {
     width: 335px;
     margin: 0 auto;
   }
-}
 
-.header-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
+  .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 
-.header-logo {
-  font-weight: 500;
-  font-size: 16px;
-  letter-spacing: -0.02em;
-  color: #0c0c0c;
-}
+  .header-logo {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+  }
 
-.header-menu-list {
-  display: none;
-}
+  .header-menu-list {
+    display: none;
+  }
 
-.menu-icon-list {
-  display: none;
-}
+  .menu-icon-list {
+    display: none;
+  }
 
-.menu-btn-icon {
-  padding: 0;
-  line-height: 0;
-  background-color: transparent;
-  cursor: pointer;
-  border: none;
+  .menu-btn-icon {
+    padding: 0;
+    line-height: 0;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+  }
 }
 
 /* Стилі для планшетів */
